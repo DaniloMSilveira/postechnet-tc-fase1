@@ -1,0 +1,7 @@
+
+CRIANDO E APLICANDO NOVAS MIGRATIONS
+
+dotnet ef migrations add <NOME_MIGRATION> -c FCGContext -s ../FCG.API/
+
+dotnet ef database update -c FCGContext -s ../FCG.API/
+
